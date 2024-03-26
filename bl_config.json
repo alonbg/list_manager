@@ -1,0 +1,38 @@
+{
+    "blackLists": {
+        "ads": [
+            "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+            "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
+            "http://sysctl.org/cameleon/hosts",
+            "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
+        ],
+        "fakenews": [
+            "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
+        ],
+        "porn": [
+            "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts"
+        ],
+        "social": [
+            "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-only/hosts"
+        ],
+        "gambling": [
+            "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts"
+        ],
+        "phishing": [
+            "https://phishing.army/download/phishing_army_blocklist_extended.txt"
+        ],
+        "torrent": [
+            "https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-websites.txt"
+        ],
+        "crypto": [
+            "https://raw.githubusercontent.com/AntiScam-Squad/pi-hole/main/crypto_scam.txt",
+            "https://raw.githubusercontent.com/AntiScam-Squad/pi-hole/main/7day_NRD.txt"
+        ]
+    },
+    "whiteLists": {
+        "wl": [
+            "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist-referral.txt",
+            "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt"
+        ]            
+    }
+}

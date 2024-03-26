@@ -1,0 +1,9 @@
+requests==2.31.0
+tld==0.13
+boto3==1.28.74
+dnspython==2.4.2
+pyaml==23.9.7
+requests-cache==1.1.0
+sshtunnel==0.4.0
+humanfriendly==10.0
+aiofiles==23.2.1
